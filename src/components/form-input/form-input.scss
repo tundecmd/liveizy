@@ -1,0 +1,27 @@
+.group{
+    color: #17a2b8;
+    display: flex;
+    flex-direction: column;
+
+    input {
+        background: #fff;
+        min-height: 3em;
+        width: 28vw;
+        border-radius: 5px;
+        border: none;
+        overflow: hidden;
+        margin-top: 10px;
+        color: #17a2b8;
+        font-weight: bold;
+        line-height: 1.5;
+
+
+        &:focus {
+            outline: none;
+          }
+    }
+
+    input[type='password'] {
+        letter-spacing: 0.3em;
+      }
+}

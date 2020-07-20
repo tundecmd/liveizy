@@ -1,0 +1,59 @@
+.container {
+    width: 100vw;
+    margin: 60px 0;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    // display: flex;
+    // justify-content: space-between;
+}
+
+.our-mission {
+    float: left;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    
+    .form-section {
+        margin-left: 20px;
+
+        .agreement {
+            margin-top: 1.5em;
+            font-size: 0.8rem;
+            font-weight: bold;            
+        }
+        .terms {
+            margin-top: 0;
+        }
+    }
+    .img-div{
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    img{
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 1.625rem;
+        color: #052239;
+        
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        .form-input-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 3em;
+        }
+
+    }
+
+}

@@ -1,0 +1,49 @@
+
+
+.main {
+    width: 90vw;
+    height: 90vh;
+    margin-left: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .board {
+        background: #062239;
+        width: 18vw;
+    }
+
+    .section {
+        background: #f3f5f9;
+        width: 85vw;
+
+        .frame {
+            height: 10%;
+            background: rgb(165, 213, 233);
+        }
+
+        .section-form-pty {
+            display: flex;
+            justify-content: space-between;
+
+            .image-pty {
+                margin-top: 8em;
+                margin-left: 8em;
+                margin-right: 8em;
+                
+                .box {
+                    background: red;
+                }
+                
+            }
+        
+            form {
+                background-color: #fff;
+                height: 90%;
+                width: 60%;
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
